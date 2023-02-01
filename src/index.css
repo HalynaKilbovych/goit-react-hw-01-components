@@ -13,3 +13,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
