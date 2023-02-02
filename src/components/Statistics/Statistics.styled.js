@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { getRandomHexColor } from 'components/utils/randomColor';
 
 export const StatisticsWrapper = styled.section`
     width: calc((100% - 30px) / 4);
@@ -16,6 +17,7 @@ export const StatisticsTitle = styled.h2`
 export const StatisticsList = styled.ul`
   display: flex;
   justify-content: center;
+  gap: 5px;
   align-items: center;
   list-style: none;
   width: 100%;
@@ -40,7 +42,3 @@ export const Value = styled.span`
     font-weight: 400;
     color: white;
 `;
-
-function getRandomHexColor() {
-    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-  }

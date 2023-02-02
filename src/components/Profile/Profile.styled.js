@@ -48,7 +48,7 @@ export const StatsItem = styled.li`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: ghostwhite;
+    background: white;
     border-radius: 3px;
     padding: 10px;
 `
