@@ -15,13 +15,14 @@ export const App = () => {
         height: '100vh',
         display: 'flex',
         gap: '10px', 
-        justifyContent: 'center',
-        alignItems: 'flex-start',
+        alignItems: 'center',
+        flexDirection: 'column',
+
       }}
     >
       <Profile user={user} />
       <Statistics title="Upload stats" stats={data} />
-      {/* <Statistics stats={data} /> */}
+      <Statistics stats={data} />
       <FriendsList friends={friends}/>
       <TransactionHistory items={transactions} />;
     </div>

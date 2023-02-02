@@ -3,7 +3,7 @@ import { getRandomHexColor } from 'components/utils/randomColor';
 
 export const StatisticsWrapper = styled.section`
     width: calc((100% - 30px) / 4);
-    padding: 10px;
+    padding: 30px;
     background-color: beige;
     border-radius: 3px;
 `;
